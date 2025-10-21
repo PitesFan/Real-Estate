@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 /* Text styles */
 
 /* Colors */
@@ -158,4 +162,20 @@
 
 .elevation4 {
   box-shadow: 0 16px 32px -4px rgba(158, 166, 169, 0.12);
+}
+
+/* Button styles */
+
+.button {
+  width: fit-content;
+  padding: 12px 24px;
+  align-items: center;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+}
+
+.button span {
+  display: inline-block;
+  position: relative;
 }
