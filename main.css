@@ -6,7 +6,6 @@
 body {
   min-height: 100vh;
   max-width: 100vw;
-  justify-content: center;
   padding: 0 160px;
 }
 
@@ -17,7 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 32px 0;
+  margin: 32px 0 40px 0;
 }
 
 header nav ul {
@@ -44,4 +43,36 @@ header div {
   align-items: center;
   display: flex;
   flex-direction: row;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hero-section styles */
+
+.hero-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 32px;
+  align-items: center;
+}
+
+.hero-img {
+  max-width: 400px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.center-text {
+  text-align: center;
 }
