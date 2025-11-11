@@ -246,3 +246,37 @@ main {
  row-gap: 32px;
  text-align: center;
 }
+
+/* Image-with-text-section styles */
+
+.image-with-text-section {
+ width: calc(100% + 320px);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ margin: 0 -160px;
+ padding: 40px 0;
+ row-gap: 28px;
+}
+
+.img-text-content {
+ margin: 0 160px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ gap: 32px;
+}
+
+.img-text-info {
+ display: flex;
+ flex-direction: column;
+ row-gap: 20px;
+}
+
+.text-img {
+ max-width: 50%;
+ height: 100%;
+ object-fit: cover;
+border-radius: 4px;
+}
