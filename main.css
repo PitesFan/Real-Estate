@@ -280,6 +280,15 @@ main {
  object-fit: cover;
 border-radius: 4px;
 }
-.video-section {}
+
+/* Footer styles */
+
+footer {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 80px 0 40px 0;
+}
 
 
