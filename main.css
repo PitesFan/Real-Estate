@@ -312,3 +312,12 @@ main {
  height: auto;
  object-fit: contain;
 }
+
+/* Footer styles */
+footer {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 80px 0 40px 0;
+}
