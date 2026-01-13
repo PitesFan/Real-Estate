@@ -362,7 +362,6 @@ footer {
 
 /* Console button */
 #console-button {
-
  position: fixed;
  right: 32px;
  bottom: 32px;
@@ -370,4 +369,5 @@ footer {
  color: white;
  border: none;
  padding: 16px;
+ border-radius: 4px;
 }
