@@ -21,3 +21,13 @@ rightArrow.addEventListener('click', () => {
 })
 
 window.addEventListener('resize', updateSlider)
+
+// Message
+
+const consoleBtn = document.getElementById("console-button");
+
+const consoleBtnClick = () => {
+ console.log("MC", Math.random());
+}
+
+consoleBtn.addEventListener("click", consoleBtnClick);

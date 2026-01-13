@@ -235,3 +235,13 @@ main {
  gap: 28px;
  justify-content: center;
 }
+
+#console-button {
+ background-color: #f56900;
+ color: white;
+ border: none;
+ padding: 16px;
+ position: fixed;
+ right: 30px;
+ bottom: 30px;
+}
