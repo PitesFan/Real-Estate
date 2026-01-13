@@ -1,5 +1,5 @@
 a {
-  text-decoration: none;
+ text-decoration: none;
 }
 
 /* Text styles */
@@ -7,179 +7,183 @@ a {
 /* Colors */
 
 .primary-light {
-  color: #3acee9;
+ color: #3acee9;
 }
 
 .primary-dark {
-  color: #0083bc;
+ color: #0083bc;
 }
 
 .secondary-main {
-  color: #f56900;
+ color: #f56900;
 }
 
 .secondary-dark {
-  color: #d24e00;
+ color: #d24e00;
 }
 
 .text-primary {
-  color: #2c2c2c;
+ color: #2c2c2c;
 }
 
 .text-secondary {
-  color: #808080;
+ color: #808080;
 }
 
 .grey-100 {
-  color: #fcfcfd;
+ color: #fcfcfd;
 }
 
 .grey-300 {
-  color: #f3f6f7;
+ color: #f3f6f7;
 }
 
 .grey-900 {
-  color: #cedddf;
+ color: #cedddf;
 }
 
 /* Font */
 
 .H1 {
-  font-family: Poppins;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 135%;
+ font-family: Poppins;
+ font-size: 48px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 135%;
 }
 
 .H2 {
-  font-family: Poppins;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 140%;
+ font-family: Poppins;
+ font-size: 40px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: 140%;
 }
 
 .H3 {
-  font-family: Poppins;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 145%;
+ font-family: Poppins;
+ font-size: 32px;
+ font-style: normal;
+ font-weight: 500;
+ line-height: 145%;
 }
 
 .regular-H5 {
-  font-family: Poppins;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%;
+ font-family: Poppins;
+ font-size: 24px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 140%;
 }
 
 .medium-H5 {
-  font-family: Poppins;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 140%;
+ font-family: Poppins;
+ font-size: 24px;
+ font-style: normal;
+ font-weight: 500;
+ line-height: 140%;
 }
 
 .regular-H6 {
-  font-family: Poppins;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 165%;
+ font-family: Poppins;
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 165%;
 }
 
 .medium-H6 {
-  font-family: Poppins;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 165%;
+ font-family: Poppins;
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 500;
+ line-height: 165%;
 }
 
 .semibold-H6 {
-  font-family: Poppins;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 165%;
+ font-family: Poppins;
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: 165%;
 }
 
 .regular-p {
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
+ font-family: Poppins;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 150%;
 }
 
 .medium-p {
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 150%;
+ font-family: Poppins;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 500;
+ line-height: 150%;
 }
 
 .subheading {
-  font-family: Poppins;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 180%;
+ font-family: Poppins;
+ font-size: 14px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 180%;
 }
 
 /* Bg-color styles */
 
 .default-bg {
-  background-color: #f9fafb;
+ background-color: #f9fafb;
 }
 
 .primary-main-bg {
-  background-color: #00a9db;
+ background-color: #00a9db;
 }
 
 .primary-light-bg {
-    background-color: #3ACEE9;
+ background-color: #3acee9;
 }
 
 .secondary-light-bg {
-  background-color: #f9983e;
+ background-color: #f9983e;
 }
 
 .text-secondary-bg {
-  background-color: #808080;
+ background-color: #808080;
 }
 
 .grey-100-bg {
-  background-color: #fcfcfd;
+ background-color: #fcfcfd;
 }
 
 .grey-900-bg {
-  background-color: #cedddf;
+ background-color: #cedddf;
 }
 
 /* Elevations */
 
 .elevation4 {
-  box-shadow: 0 16px 32px -4px rgba(158, 166, 169, 0.12);
+ box-shadow: 0 16px 32px -4px rgba(158, 166, 169, 0.12);
 }
 
 /* Button styles */
 
 .button {
-  width: fit-content;
-  padding: 12px 24px;
-  align-items: center;
-  text-align: center;
-  border-radius: 4px;
-  border: none;
+ width: fit-content;
+ padding: 12px 24px;
+ align-items: center;
+ text-align: center;
+ border-radius: 4px;
+ border: none;
 }
 
 .button span {
-  display: inline-block;
-  position: relative;
+ display: inline-block;
+ position: relative;
+}
+
+.video {
+ width: 100%;
 }

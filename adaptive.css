@@ -1,0 +1,88 @@
+@media (max-width: 1200px) {
+ body {
+  padding: 0 60px;
+ }
+ .home-img {
+  width: 30%;
+ }
+ .home-details {
+  width: 70%;
+ }
+ .team-cards {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  row-gap: 32px;
+ }
+ .about-us-section, .image-with-text-section {
+  width: calc(100% + 120px);
+  margin: 0 -60px;
+ }
+ .img-text-content {
+  margin: 0 60px;
+ }
+}
+
+@media (max-width: 1200px) {
+ .reviews-cards {
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+ }
+}
+
+@media (max-width: 834px) {
+ header nav {
+  display: none;
+ }
+ .hero-section {
+  width: calc(100% + 120px);
+  margin: 0 -60px;
+ }
+ .cards-container {
+  margin: 0 60px;
+  grid-template-columns: repeat(1, 1fr);
+ }
+ .steps-container {
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+ }
+ .home-slide {
+  flex-direction: column;
+  row-gap: 32px;
+  align-items: center;
+ }
+ .home-img, .home-details {
+  width: 100%;
+ }
+ .home-img {
+  max-height: 280px;
+ }
+ .img-text-content {
+  flex-direction: column;
+ }
+ .text-img {
+  max-width: 100%;
+ }
+}
+
+@media (max-width: 600px) {
+ .hero-section {
+  grid-template-columns: repeat(1, 1fr);
+ }
+ .hero-img {
+  max-height: 400px;
+  width: 100%;
+ }
+}
+@media (max-width: 500px) {
+ body {
+  padding: 0 24px;
+ }
+ .about-us-section, .image-with-text-section {
+  width: calc(100% + 48px);
+  margin: 0 -24px;
+ }
+ .img-text-content {
+  margin: 0 24px;
+ }
+}
